@@ -11,11 +11,13 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
   - Usar valores definidos en el entorno de ejecución.
   - Proporcionar valores por defecto para desarrollo local.
 </details>
+
 <details>
 <summary>
   <strong> Configuración de Entornos</strong> 
 </summary>
-  Utilizamos archivos de propiedades o YML para definir configurarciones de cada entorno. Por ejemplo, <strong>application.yml:</strong>
+  Utilizamos archivos de propiedades o YML para definir configurarciones de cada entorno. 
+  Por ejemplo, <strong>application.yml:</strong>
 
   ``` 
 spring:
