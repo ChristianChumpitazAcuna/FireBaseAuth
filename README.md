@@ -18,6 +18,21 @@ Las variables de entorno se definen utilizando la sintaxis **${VARIABLE_NAME:def
 Utilizamos archivos de propiedades o YML para definir configuraciones de cada entorno. 
 Por ejemplo, **application.yml**
 
+```
+spring:
+  application:
+    name: vg.ms.enrollment_detail
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/defaultdb}
+
+server:
+  port: ${SERVER_PORT:8091}
+
+services:
+  student:
+    url: ${STUDENT_SERVICE_URL:http://localhost:8082/student}
+```
 
 </details>
 
