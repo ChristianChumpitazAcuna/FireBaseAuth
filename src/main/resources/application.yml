@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vg.ms.enrollment_detail
+  cloud:
+    config:
+      import-check:
+        enabled: false
+  data:
+    mongodb:
+      uri: mongodb+srv://Christian:jesus2002ch0510Vg@demo.54sx3.mongodb.net/demo?retryWrites=true&w=majority&appName=Demo
+
+server:
+  port: 8000
