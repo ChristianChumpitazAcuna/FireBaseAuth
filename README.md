@@ -15,7 +15,7 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
 <summary>
   <strong> Configuración de Entornos</strong> 
 </summary>
-  Utilizamos archivos de propiedades o YAML para definir- s de cada entorno. Por plication.yml
+  Utilizamos archivos de propiedades o YML para definir configurarciones de cada entorno. Por ejemplo, <strong>application.yml:</strong>
 
   ``` 
 spring:
