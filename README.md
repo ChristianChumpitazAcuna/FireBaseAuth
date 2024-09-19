@@ -18,7 +18,7 @@ Las variables de entorno se definen utilizando la sintaxis **${VARIABLE_NAME:def
 Utilizamos archivos de propiedades o YML para definir configuraciones de cada entorno. 
 Por ejemplo, **application.yml**
 
-```
+```yaml
 spring:
   application:
     name: vg.ms.enrollment_detail
