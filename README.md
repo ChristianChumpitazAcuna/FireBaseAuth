@@ -34,3 +34,14 @@ services:
     url: ${STUDENT_SERVICE_URL:http://localhost:8082/student}
 ```
 </details>
+
+<details>
+  <summary>Consumo de Propiedades con <strong>@Value</strong></summary>
+  
+Para utilizar estas propiedades en tu código, puedes usar la anotación **@Value** de Spring. Ejemplos:
+
+```
+@Value("${services.student.url}")
+    private String studentServiceUrl;
+```
+</details>
