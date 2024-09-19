@@ -46,6 +46,3 @@ private String studentServiceUrl;
 ```
 </details>
 
----
-
----
