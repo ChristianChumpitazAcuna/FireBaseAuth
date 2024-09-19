@@ -13,7 +13,7 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
 </details>
 <details>
 <summary>
-  ## Configuración de Entornos
+  <strong> Configuración de Entornos</strong> 
 </summary>
   Utilizamos archivos de propiedades o YAML para definir- s de cada entorno. Por plication.yml:
 
