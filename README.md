@@ -14,10 +14,10 @@ Las variables de entorno se definen utilizando la sintaxis <strong>${VARIABLE_NA
 
 <details>
   <summary><strong>Configuración de Entornos</strong></summary>
-
+<div>
 Utilizamos archivos de propiedades o YML para definir configuraciones de cada entorno. 
 Por ejemplo, <strong>application.yml</strong>:
-
+</div>
 
 
 </details>
