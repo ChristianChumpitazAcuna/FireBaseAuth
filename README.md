@@ -36,12 +36,12 @@ services:
 </details>
 
 <details>
-  <summary>Consumo de Propiedades con <strong>@Value</strong></summary>
+  <summary><strong>Consumo de Propiedades con @Value</strong></summary>
   
 Para utilizar estas propiedades en tu código, puedes usar la anotación **@Value** de Spring. Ejemplos:
 
-```
+```Java
 @Value("${services.student.url}")
-    private String studentServiceUrl;
+private String studentServiceUrl;
 ```
 </details>
