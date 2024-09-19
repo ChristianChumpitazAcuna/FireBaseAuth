@@ -4,7 +4,7 @@
 Ayudan a gestionar diferentes configuraciones para variables como bases de datos, credenciales, servicios externos, y otras propiedades que pueden variar según el entorno.
 <details>
 <summary>
-  ## Uso de Variables de Entorno
+  <strong> Uso de Variables de Entorno</strong>
 </summary>
   Las variables de entorno se definen utilizando la sintaxis ${VARIABLE_NAM- E:default_value}</strong>. 
 
