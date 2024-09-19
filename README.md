@@ -6,7 +6,7 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
 <details>
   <summary><strong>Uso de Variables de Entorno</strong></summary>
   
-Las variables de entorno se definen utilizando la sintaxis <strong>${VARIABLE_NAME:default_value}</strong>.
+Las variables de entorno se definen utilizando la sintaxis *${VARIABLE_NAME:default_value}*.
   
 - Usar valores definidos en el entorno de ejecución.
 - Proporcionar valores por defecto para desarrollo local.
