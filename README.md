@@ -19,7 +19,7 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
   Utilizamos archivos de propiedades o YML para definir configurarciones de cada entorno. 
   Por ejemplo, <strong>application.yml:</strong>
 
-  ``` 
+``` 
 spring:
   application:
     name: vg.ms.enrollment_detail
@@ -33,7 +33,7 @@ server:
 services:
   student:
     url: ${STUDENT_SERVICE_URL:http://localhost:8082/student}
- ```
+```
 </details>
 
 ---
