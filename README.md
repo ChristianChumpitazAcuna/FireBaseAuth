@@ -4,7 +4,7 @@
 Ayudan a gestionar diferentes configuraciones para variables como bases de datos, credenciales, servicios externos, y otras propiedades que pueden variar según el entorno.
 <details>
 <summary>
-  - Uso de Variables de Entorno
+  ## Uso de Variables de Entorno
 </summary>
   Las variables de entorno se definen utilizando la sintaxis ${VARIABLE_NAM- E:default_value}</strong>. 
 
@@ -13,7 +13,7 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
 </details>
 <details>
 <summary>
-  - Configuración de Entornos
+  ## Configuración de Entornos
 </summary>
   Utilizamos archivos de propiedades o YAML para definir- s de cada entorno. Por plication.yml:
 
