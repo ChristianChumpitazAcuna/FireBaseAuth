@@ -15,7 +15,6 @@ Las variables de entorno se definen utilizando la sintaxis <strong>${VARIABLE_NA
 <summary><strong>Configuración de Entornos</strong></summary>
 Utilizamos archivos de propiedades o YML para definir configuraciones de cada entorno. 
 Por ejemplo, <strong>application.yml:</strong>
-
 ```
 spring:
   application:
