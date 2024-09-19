@@ -6,7 +6,7 @@ Ayudan a gestionar diferentes configuraciones para variables como bases de datos
 <details>
   <summary><strong>Uso de Variables de Entorno</strong></summary>
   
-Las variables de entorno se definen utilizando la sintaxis *${VARIABLE_NAME:default_value}*.
+Las variables de entorno se definen utilizando la sintaxis **${VARIABLE_NAME:default_value}**.
   
 - Usar valores definidos en el entorno de ejecución.
 - Proporcionar valores por defecto para desarrollo local.
@@ -16,7 +16,7 @@ Las variables de entorno se definen utilizando la sintaxis *${VARIABLE_NAME:defa
   <summary><strong>Configuración de Entornos</strong></summary>
   
 Utilizamos archivos de propiedades o YML para definir configuraciones de cada entorno. 
-Por ejemplo, *application.yml*
+Por ejemplo, **application.yml**
 
 
 </details>
