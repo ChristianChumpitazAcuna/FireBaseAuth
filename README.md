@@ -34,6 +34,7 @@ services:
   student:
     url: ${STUDENT_SERVICE_URL:http://localhost:8082/student}
 ```
+
 </details>
 
 ---
