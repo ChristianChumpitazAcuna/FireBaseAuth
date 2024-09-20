@@ -61,7 +61,7 @@ El logging estructurado permite registrar eventos del sistema de forma organizad
   <summary><strong>Requisitos</strong></summary>
 Tener Lombok agregado en el proyecto
 
-```Java
+```yaml
 <dependency>
   <groupId>org.projectlombok</groupId>
   <artifactId>lombok</artifactId>
