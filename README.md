@@ -79,3 +79,35 @@ public class UserService {
 }
 ```
 </details>
+
+<details>
+  <summary><strong>Ejemplo</strong></summary>
+  Aquí se muestra cómo realizar logs en un servicio, registrando información adicional sobre el procesamiento de datos.
+
+```Java
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+
+@Service
+@Slf4j
+public class UserService {
+
+    public void procesarUsuario(Long userId) {
+        // Nivel INFO: Evento significativo en el flujo
+        log.info("Procesando usuario con ID: {}", userId);
+
+        try {
+            // Simulación de procesamiento
+            log.debug("Buscando datos del usuario con ID: {}", userId);
+            // Procesamiento exitoso
+            log.info("Usuario con ID {} procesado exitosamente", userId);
+
+        } catch (Exception e) {
+            // Nivel ERROR: Excepción en el procesamiento
+            log.error("Error al procesar el usuario con ID {}: {}", userId, e.getMessage(), e);
+            throw e; // Relanzar la excepción si es necesario
+        }
+    }
+}
+```
+</details>
