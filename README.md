@@ -59,7 +59,7 @@ El logging estructurado permite registrar eventos del sistema de forma organizad
 
 <details>
   <summary><strong>Requisitos</strong></summary>
--Tener Lombok agregado en el proyecto
+Tener Lombok agregado en el proyecto
 
 ```Java
 <dependency>
@@ -69,7 +69,7 @@ El logging estructurado permite registrar eventos del sistema de forma organizad
 </dependency>
 ```
 
--Usar la anotacion `@Slf4j`
+Usar la anotacion `@Slf4j`
 
 ```Java
 @Service
