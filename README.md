@@ -70,4 +70,12 @@ El logging estructurado permite registrar eventos del sistema de forma organizad
 ```
 
 - Usar la anotacion `@Slf4j`
+
+```Java
+@Service
+@Slf4j
+public class UserService {
+  ...
+}
+```
 </details>
