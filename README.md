@@ -46,3 +46,13 @@ private String studentServiceUrl;
 ```
 </details>
 
+ ### Uso de Logging Estructurado
+El logging estructurado permite registrar eventos del sistema de forma organizada, utilizando diferentes niveles de severidad. Esto facilita la depuración y el monitoreo los microservicios.
+
+Uso de diferentes tipos de log:
+
+- **INFO (log.info()):** Para registrar eventos importantes en el flujo normal de la aplicación, como el inicio de procesos o la obtención de datos.
+- **DEBUG (log.debug()):** Para incluir detalles adicionales que son útiles durante el desarrollo o depuración, pero no deberían estar activos en producción.
+- **WARN (log.warn()):** Para advertir sobre situaciones inesperadas que no interrumpen la ejecución, pero podrían necesitar atención.
+- **ERROR (log.error()):** Para registrar errores críticos que pueden causar fallos en la aplicación y requieren una intervención inmediata.
+
