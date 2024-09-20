@@ -49,17 +49,17 @@ private String studentServiceUrl;
  ### Uso de Logging Estructurado
 El logging estructurado permite registrar eventos del sistema de forma organizada, utilizando diferentes niveles de severidad. Esto facilita la depuración y el monitoreo los microservicios.
 <details>
-  <summary><strong>Tipos de log:</strong></summary>
+  <summary><strong>Tipos de log</strong></summary>
 
-- **INFO (log.info()):** Para registrar eventos importantes en el flujo normal de la aplicación, como el inicio de procesos o la obtención de datos.
-- **DEBUG (log.debug()):** Para incluir detalles adicionales que son útiles durante el desarrollo o depuración, pero no deberían estar activos en producción.
-- **WARN (log.warn()):** Para advertir sobre situaciones inesperadas que no interrumpen la ejecución, pero podrían necesitar atención.
-- **ERROR (log.error()):** Para registrar errores críticos que pueden causar fallos en la aplicación y requieren una intervención inmediata.
+- **INFO:** Para registrar eventos importantes en el flujo normal de la aplicación, como el inicio de procesos o la obtención de datos.
+- **DEBUG:** Para incluir detalles adicionales que son útiles durante el desarrollo o depuración, pero no deberían estar activos en producción.
+- **WARN:** Para advertir sobre situaciones inesperadas que no interrumpen la ejecución, pero podrían necesitar atención.
+- **ERROR:** Para registrar errores críticos que pueden causar fallos en la aplicación y requieren una intervención inmediata.
 </details>
 
 <details>
   <summary><strong>Requisitos</strong></summary>
-- Tener Lombok agregado en el proyecto
+-Tener Lombok agregado en el proyecto
 
 ```Java
 <dependency>
@@ -69,7 +69,7 @@ El logging estructurado permite registrar eventos del sistema de forma organizad
 </dependency>
 ```
 
-- Usar la anotacion `@Slf4j`
+-Usar la anotacion `@Slf4j`
 
 ```Java
 @Service
